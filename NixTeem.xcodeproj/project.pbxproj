@@ -10,9 +10,22 @@
 		3B1E569E2B567D9B00489589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E569D2B567D9B00489589 /* AppDelegate.swift */; };
 		3B1E56A02B567D9B00489589 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E569F2B567D9B00489589 /* SceneDelegate.swift */; };
 		3B1E56A22B567D9B00489589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56A12B567D9B00489589 /* ViewController.swift */; };
-		3B1E56A52B567D9B00489589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E56A32B567D9B00489589 /* Main.storyboard */; };
 		3B1E56A72B567D9D00489589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E56A62B567D9D00489589 /* Assets.xcassets */; };
 		3B1E56AA2B567D9D00489589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E56A82B567D9D00489589 /* LaunchScreen.storyboard */; };
+		3B1E56B62B5686DC00489589 /* DbService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56B52B5686DC00489589 /* DbService.swift */; };
+		3B1E56B92B56870E00489589 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3B1E56B82B56870E00489589 /* Alamofire */; };
+		3B1E56BC2B56874100489589 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3B1E56BB2B56874100489589 /* RxCocoa */; };
+		3B1E56BE2B56874100489589 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B1E56BD2B56874100489589 /* RxSwift */; };
+		3B1E56C12B56874B00489589 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3B1E56C02B56874B00489589 /* SnapKit */; };
+		3B1E56C52B56879300489589 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56C42B56879300489589 /* Model.swift */; };
+		3B1E56C82B56A5F200489589 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56C72B56A5F200489589 /* MenuItemCell.swift */; };
+		3B1E56CF2B56BCCE00489589 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E56CD2B56BCCE00489589 /* SFProDisplay-Medium.ttf */; };
+		3B1E56D02B56BCCE00489589 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E56CE2B56BCCE00489589 /* SFProDisplay-Semibold.ttf */; };
+		3B1E56D22B56BE0000489589 /* sf-pro-display-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E56D12B56BE0000489589 /* sf-pro-display-bold.otf */; };
+		3B1E56D42B5706E700489589 /* SubMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56D32B5706E600489589 /* SubMenuItemCell.swift */; };
+		3B1E56D72B57091C00489589 /* MainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56D62B57091C00489589 /* MainConstants.swift */; };
+		3B1E56D92B57ACCF00489589 /* BasketViewCntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56D82B57ACCF00489589 /* BasketViewCntroller.swift */; };
+		3B1E56DB2B57C08100489589 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E56DA2B57C08100489589 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +33,19 @@
 		3B1E569D2B567D9B00489589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B1E569F2B567D9B00489589 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B1E56A12B567D9B00489589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B1E56A42B567D9B00489589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B1E56A62B567D9D00489589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1E56A92B567D9D00489589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1E56AB2B567D9D00489589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1E56B52B5686DC00489589 /* DbService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbService.swift; sourceTree = "<group>"; };
+		3B1E56C42B56879300489589 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3B1E56C72B56A5F200489589 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		3B1E56CD2B56BCCE00489589 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		3B1E56CE2B56BCCE00489589 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		3B1E56D12B56BE0000489589 /* sf-pro-display-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-pro-display-bold.otf"; sourceTree = "<group>"; };
+		3B1E56D32B5706E600489589 /* SubMenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMenuItemCell.swift; sourceTree = "<group>"; };
+		3B1E56D62B57091C00489589 /* MainConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConstants.swift; sourceTree = "<group>"; };
+		3B1E56D82B57ACCF00489589 /* BasketViewCntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewCntroller.swift; sourceTree = "<group>"; };
+		3B1E56DA2B57C08100489589 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1E56BE2B56874100489589 /* RxSwift in Frameworks */,
+				3B1E56C12B56874B00489589 /* SnapKit in Frameworks */,
+				3B1E56BC2B56874100489589 /* RxCocoa in Frameworks */,
+				3B1E56B92B56870E00489589 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,88 @@
 		3B1E569C2B567D9B00489589 /* NixTeem */ = {
 			isa = PBXGroup;
 			children = (
-				3B1E569D2B567D9B00489589 /* AppDelegate.swift */,
-				3B1E569F2B567D9B00489589 /* SceneDelegate.swift */,
-				3B1E56A12B567D9B00489589 /* ViewController.swift */,
-				3B1E56A32B567D9B00489589 /* Main.storyboard */,
+				3B1E56D52B57090800489589 /* Constants */,
+				3B1E56CC2B56BCC400489589 /* Fonts */,
+				3B1E56B22B56820200489589 /* Application */,
+				3B1E56B32B56826800489589 /* Modules */,
+				3B1E56B12B56818700489589 /* Resources */,
+			);
+			path = NixTeem;
+			sourceTree = "<group>";
+		};
+		3B1E56B12B56818700489589 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3B1E56A62B567D9D00489589 /* Assets.xcassets */,
 				3B1E56A82B567D9D00489589 /* LaunchScreen.storyboard */,
 				3B1E56AB2B567D9D00489589 /* Info.plist */,
 			);
-			path = NixTeem;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B1E56B22B56820200489589 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E569D2B567D9B00489589 /* AppDelegate.swift */,
+				3B1E569F2B567D9B00489589 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3B1E56B32B56826800489589 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E56C62B56A5DD00489589 /* Cells */,
+				3B1E56C22B56877E00489589 /* Model */,
+				3B1E56B42B5686C600489589 /* DbService */,
+				3B1E56A12B567D9B00489589 /* ViewController.swift */,
+				3B1E56D82B57ACCF00489589 /* BasketViewCntroller.swift */,
+				3B1E56DA2B57C08100489589 /* InfoViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3B1E56B42B5686C600489589 /* DbService */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E56B52B5686DC00489589 /* DbService.swift */,
+			);
+			path = DbService;
+			sourceTree = "<group>";
+		};
+		3B1E56C22B56877E00489589 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E56C42B56879300489589 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B1E56C62B56A5DD00489589 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E56C72B56A5F200489589 /* MenuItemCell.swift */,
+				3B1E56D32B5706E600489589 /* SubMenuItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3B1E56CC2B56BCC400489589 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E56D12B56BE0000489589 /* sf-pro-display-bold.otf */,
+				3B1E56CD2B56BCCE00489589 /* SFProDisplay-Medium.ttf */,
+				3B1E56CE2B56BCCE00489589 /* SFProDisplay-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3B1E56D52B57090800489589 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E56D62B57091C00489589 /* MainConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +182,12 @@
 			dependencies = (
 			);
 			name = NixTeem;
+			packageProductDependencies = (
+				3B1E56B82B56870E00489589 /* Alamofire */,
+				3B1E56BB2B56874100489589 /* RxCocoa */,
+				3B1E56BD2B56874100489589 /* RxSwift */,
+				3B1E56C02B56874B00489589 /* SnapKit */,
+			);
 			productName = NixTeem;
 			productReference = 3B1E569A2B567D9B00489589 /* NixTeem.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +216,11 @@
 				Base,
 			);
 			mainGroup = 3B1E56912B567D9B00489589;
+			packageReferences = (
+				3B1E56B72B56870E00489589 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3B1E56BA2B56874100489589 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				3B1E56BF2B56874B00489589 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3B1E569B2B567D9B00489589 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1E56D22B56BE0000489589 /* sf-pro-display-bold.otf in Resources */,
 				3B1E56AA2B567D9D00489589 /* LaunchScreen.storyboard in Resources */,
+				3B1E56D02B56BCCE00489589 /* SFProDisplay-Semibold.ttf in Resources */,
 				3B1E56A72B567D9D00489589 /* Assets.xcassets in Resources */,
-				3B1E56A52B567D9B00489589 /* Main.storyboard in Resources */,
+				3B1E56CF2B56BCCE00489589 /* SFProDisplay-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1E56D72B57091C00489589 /* MainConstants.swift in Sources */,
+				3B1E56D42B5706E700489589 /* SubMenuItemCell.swift in Sources */,
+				3B1E56C52B56879300489589 /* Model.swift in Sources */,
 				3B1E56A22B567D9B00489589 /* ViewController.swift in Sources */,
+				3B1E56DB2B57C08100489589 /* InfoViewController.swift in Sources */,
+				3B1E56B62B5686DC00489589 /* DbService.swift in Sources */,
+				3B1E56D92B57ACCF00489589 /* BasketViewCntroller.swift in Sources */,
+				3B1E56C82B56A5F200489589 /* MenuItemCell.swift in Sources */,
 				3B1E569E2B567D9B00489589 /* AppDelegate.swift in Sources */,
 				3B1E56A02B567D9B00489589 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +266,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3B1E56A32B567D9B00489589 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B1E56A42B567D9B00489589 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B1E56A82B567D9D00489589 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +405,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UST3K758X8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NixTeem/Info.plist;
+				INFOPLIST_FILE = NixTeem/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,10 +432,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UST3K758X8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NixTeem/Info.plist;
+				INFOPLIST_FILE = NixTeem/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +472,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B1E56B72B56870E00489589 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		3B1E56BA2B56874100489589 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+		3B1E56BF2B56874B00489589 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B1E56B82B56870E00489589 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B1E56B72B56870E00489589 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3B1E56BB2B56874100489589 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B1E56BA2B56874100489589 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		3B1E56BD2B56874100489589 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B1E56BA2B56874100489589 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		3B1E56C02B56874B00489589 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B1E56BF2B56874B00489589 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B1E56922B567D9B00489589 /* Project object */;
 }

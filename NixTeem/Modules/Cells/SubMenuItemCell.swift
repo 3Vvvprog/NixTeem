@@ -16,6 +16,7 @@ class SubMenuItemCell: UICollectionViewCell {
     var cellView = UIView()
     var mainView = UIView()
     private var imageView = UIImageView()
+    private var spicyImageView = UIImageView()
     private var nameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: "SFProDisplay-Semibold", size: 18)
@@ -81,7 +82,7 @@ class SubMenuItemCell: UICollectionViewCell {
         }else {
             normalText = ""
         }
-        var normalAttrs = [NSAttributedString.Key.font : UIFont(name: "SFProDisplay-Medium", size: 14), NSAttributedString.Key.foregroundColor : UIColor.lightGray]
+        let normalAttrs = [NSAttributedString.Key.font : UIFont(name: "SFProDisplay-Medium", size: 14), NSAttributedString.Key.foregroundColor : UIColor.lightGray]
         
         let normalString = NSMutableAttributedString(string:normalText, attributes:normalAttrs as [NSAttributedString.Key : Any])
         attributedString.append(normalString)
@@ -89,6 +90,11 @@ class SubMenuItemCell: UICollectionViewCell {
         priceWeightLabel.attributedText = attributedString
         
         contentLabel.text = data.content
+        
+        
+        if let chili = data.spicy {
+            spicyImageView.image = UIImage(named: "chili")
+        }
     }
     
 }
@@ -106,6 +112,8 @@ private extension SubMenuItemCell {
         imageView.layer.cornerRadius = 8
         imageView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         imageView.clipsToBounds = true
+        
+        mainView.addSubview(spicyImageView)
         
         mainView.addSubview(priceWeightLabel)
         
@@ -135,6 +143,12 @@ private extension SubMenuItemCell {
         imageView.snp.makeConstraints { make in
             make.leading.bottom.trailing.equalToSuperview()
             make.top.equalTo(mainView.snp.centerY)
+        }
+        
+        spicyImageView.snp.makeConstraints { make in
+            make.trailing.equalToSuperview().inset(5)
+            make.bottom.equalTo(imageView.snp.top).offset(-5)
+            make.height.width.equalTo(30)
         }
         
         priceWeightLabel.snp.makeConstraints { make in
